@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    height: 100vh;
+    background-color: #d3d3d3;
+    background-size: contain;
+}
+
+#mountain {
+    background-color: blue;
+    width: 100%;
+    background-image: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.nunomad.com%2Fwp-content%2Fuploads%2F2016%2F08%2Fmorning-prayers-at-the-western-wall-in-jerusalem.jpg&f=1");
+    height: 346px;
+    border-radius: 10px ;
+    background-size: cover;
+}
+
+
+.avatar {
+    /* height: 300px; */
+    /* background-color: aqua; */
+    padding: 2em;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+}
+
+img {
+    width: 40%;
+}
+
+@keyframes slide {
+    0%   {left:0px; top:50px;}
+    50%  {left:200px; top:50px;}
+    100% {left:0px; top:50px;}
+}
+
+.monitors {
+    /* width: 100%; */
+    /* margin-left: 50px; */
+    margin: 4em;
+    margin-bottom: 8em;
+    padding: 2em;
+    background-color: slategray;
+    border-radius: 20px ;
+    display: inline-block
+}
+
+.controls {
+    text-align: center;
+    width: 50%;
+    margin-top: 2em;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 2em;
+    border-radius: 20px ;
+    display: inline-block;
+    background-color: slategray;
+}
+
+button {
+    /* background-color: blueviolet; */
+}
